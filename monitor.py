@@ -11,7 +11,7 @@ sched = BlockingScheduler()
 EMAIL_ADDRESS = 'madninja.business@gmail.com'
 EMAIL_PASSWORD = os.environ.get('password')
 
-@sched.scheduled_job('interval', seconds=5)
+@sched.scheduled_job('interval', minutes=25)
 
 def timed_job():
     try:
