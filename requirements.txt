@@ -1,5 +1,4 @@
 pip
 requests
-logging
 datetime
 APScheduler==3.0.0
